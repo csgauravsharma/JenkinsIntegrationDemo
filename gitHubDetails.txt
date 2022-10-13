@@ -22,6 +22,18 @@ In D:\SW_Dont_Move\SampleCodeGit
 [If already exists then git remote remove origin]
 8. git push -u origin master
 
+======================
+Flow install local git plugin as git download for ur OS.
+cmd with path of code to check in; create repo on web github account.
+Then in local code folder.
+git commands flows:
+init
+add
+commit
+config --global user.email
+config --global user.name
+remote add origin url (creates remote named "origin")
+push -u origin master (origin is above name and master is brach)
 
 ======================
 Other Commands:
