@@ -1,0 +1,1 @@
+print("This is Python Sample program for DevOps learning")
