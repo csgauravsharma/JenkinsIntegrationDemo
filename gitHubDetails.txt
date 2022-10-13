@@ -1,0 +1,42 @@
+github.com 
+Account1:
+1. testtest.cs@gmail.com
+2.user: testtestcsgmail
+3.Password: Pass wala
+---------------------
+Account2:(Old) will use it here:
+1. cs.gauravsharma@gmail.com
+2.user: csgauravsharma
+3.Password: Pass wala
+======================
+created Dir e.g. here D:\SW_Dont_Move\SampleCodeGit with sample file "SampleCodeFile"
+Commands:
+In D:\SW_Dont_Move\SampleCodeGit
+1. git init [If already init then git reset]
+2. git status
+3. git add . or file/folder name instead of dot(.)
+4. git commit -m "Comment"
+5. git config --global user.email "testtest.cs@gmail.com"
+6. git config --global user.name testtestcsgmail
+7. git remote add origin https://github.com/testtestcsgmail/integrateSampleWindowsCode.git
+[If already exists then git remote remove origin]
+8. git push -u origin master
+
+
+======================
+Other Commands:
+create a new repository on the command line::::
+
+echo "# integrateSampleWindowsCode" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/testtestcsgmail/integrateSampleWindowsCode.git
+git push -u origin main 
+
+
+ push an existing repository from the command line
+git remote add origin https://github.com/testtestcsgmail/integrateSampleWindowsCode.git
+git branch -M main
+git push -u origin main
